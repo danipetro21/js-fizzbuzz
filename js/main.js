@@ -13,15 +13,24 @@
 //DICHIARAZIONE VARIABILI 
 
 // ciclo principale da 1 a 100
+const div = document.querySelector(".container")
 for (let i = 1; i <= 100; i++) {
 
     if ((i % 3 == 0) && (i % 5 == 0)) {
+        const element = `<div class="square red">FIZZBUZZ</div>`;
+        div.innerHTML += element;
         console.log("FIZZBUZZ");
     } else if ((i % 3) == 0) {
+        const element = `<div class="square green">FIZZ</div>`;
+        div.innerHTML += element;
         console.log("FIZZ");
     } else if ((i % 5) == 0) {
+        const element = `<div class="square yellow">BUZZ</div>`;
+        div.innerHTML += element;
         console.log("BUZZ");
     } else {
+        const element = `<div class="square blue">${i}</div>`;
+        div.innerHTML += element;
         console.log(i);
     }
 
