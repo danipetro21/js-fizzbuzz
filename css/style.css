@@ -18,7 +18,7 @@ h1{
 
 .container{
     margin: 0 auto;
-    width: 50%;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     
