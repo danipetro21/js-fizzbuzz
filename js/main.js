@@ -10,9 +10,10 @@
 // CICLO FOR CHE PARTE DA 1 FINO A 100
 
 
-//DICHIARAZIONE VARIABILI 
-
 // ciclo principale da 1 a 100
+//DENTRO AL CICLO IF CHE CONTROLLANO SE UN NUMERO è MULTIPLO DI 3 DI 5 O DI ENTRAMBI
+
+//STAMPARE A VIDEO LE CASELLE COLORATE
 const div = document.querySelector(".container")
 for (let i = 1; i <= 100; i++) {
 
@@ -31,6 +32,3 @@ for (let i = 1; i <= 100; i++) {
     }
 
 }
-//DENTRO AL CICLO IF CHE CONTROLLANO SE UN NUMERO è MULTIPLO DI 3 DI 5 O DI ENTRAMBI
-
-//STAMPARE A VIDEO LE CASELLE COLORATE
