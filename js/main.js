@@ -14,7 +14,7 @@
 //DENTRO AL CICLO IF CHE CONTROLLANO SE UN NUMERO è MULTIPLO DI 3 DI 5 O DI ENTRAMBI
 
 //STAMPARE A VIDEO LE CASELLE COLORATE
-const div = document.querySelector(".container")
+const div = document.querySelector(".container");
 for (let i = 1; i <= 100; i++) {
 
     if ((i % 3 == 0) && (i % 5 == 0)) {
